@@ -18,4 +18,5 @@ def main():
 if __name__ == '__main__':
     print("Inicio del programa")
     main()
+    GPIO.cleanup()
     print("Fin del programa")
